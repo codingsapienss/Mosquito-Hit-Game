@@ -16,7 +16,7 @@ function startGame(){
         mosquito.style.left = i+'vw'
         mosquito.style.top = j+'vh'
         
-    }, 500)
+    }, 900)
 
     setTimeout(()=>{
         clearInterval(time)
