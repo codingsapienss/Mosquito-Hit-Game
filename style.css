@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+
+.container {
+    background: linear-gradient(to top, #237A57, #093028);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+p{
+    padding-top: 20px;
+    margin:0 auto ;
+    font-size: 4rem;
+}
+
+#mosquito {
+    position: relative;
+    width: 5rem;
+   cursor: pointer;
+}
+
+
+button {
+    color: #093028;
+    padding: 15px 12px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    width: max-content;
+    margin:  auto;
+}
